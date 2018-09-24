@@ -1,0 +1,54 @@
+body {
+  background-image: url('../imagenes/fondo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.color {
+  background-color: #FFBF80;
+}
+.color2 {
+  background-color: #E6DF3E;
+}
+.botonBuscar {
+  color: #000;
+  background-color: #FFBF80;
+}
+.buscador {
+  padding-top: 15px;
+}
+ul{
+list-style-type:none;
+}
+li:hover {
+  background-color: #E3E7E6;
+}
+.th {
+  width:30%;
+}
+.imgPost{
+  width:43%;
+  float:left;
+  margin:10px;
+}
+p {
+  margin:10px;
+  text-align: justify;
+}
+.filaImg {
+  margin:10px;
+}
+.comment {
+  background-color:#B5A14B;
+}
+.imgComment {
+  margin:10px;
+  width:85%;
+}
+.sideSection {
+  margin-left:15px;
+}
+.extLi{
+  height:35px;
+  padding-top: 5px;
+}

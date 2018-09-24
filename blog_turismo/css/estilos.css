@@ -1,0 +1,32 @@
+body {
+  min-width: 360px;
+}
+.container {
+  background-image: url('../images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container{
+  width: 100%;
+}
+.iconos_redes{
+  margin-bottom: 25px;
+}
+.justificado {
+  text-align: justify;
+}
+.img_central {
+  margin-top: 7px;
+}
+#img_principal_entrada {
+  width: 45%;
+  height: auto;
+  margin-right: 7px;
+}
+#logo {
+  border-radius: 6px;
+}
+.fa {
+  background-color: #80cbc4;
+}

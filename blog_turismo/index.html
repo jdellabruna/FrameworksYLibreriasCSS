@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importar la hojas de estilos de materialize css-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/estilos.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <title>Blog de Turismo</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row teal lighten-3">
+      <div class="col s4 m4 l4">
+        <img id="logo" class="responsive-img" src="images/logo.jpg">
+      </div>
+      <div class="col s8 m8 l8">
+        <nav class="z-depth-0">
+          <div class="nav-wrapper teal lighten-3">
+            <ul class="right">
+              <li class="active"><a href="index.html" class="black-text"><i class="material-icons left">apps</i><span class="hide-on-med-and-down">Inicio</span></a></li>
+              <li><a href="anteriores.html" class="black-text"><i class="material-icons left">flight_takeoff</i><span class="hide-on-med-and-down">Viajes anteriores</span></a></li>
+              <li><a href="recomendaciones.html" class="black-text"><i class="material-icons left">forum</i><span class="hide-on-med-and-down">Recomendaciones</span></a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="col s12 m12 l12">
+          <h5>A la vuelta de cualquier esquina...</h5>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12 center-align transparent">
+        <div class="col s1 m1 l1 hide-on-med-and-down">
+          <ul>
+            <li class="iconos_redes"><a class="btn-floating btn-medium waves-effect hoverable" target="_blank" href="https://es-la.facebook.com/TurismoArgentina/"><i class="fa fa-facebook black-text"></i></a></li>
+            <li class="iconos_redes"><a class="btn-floating btn-medium waves-effect hoverable" target="_blank" href="https://twitter.com/search?q=minturismoar"><i class="fa fa-twitter black-text"></i></a></li>
+            <li class="iconos_redes"><a class="btn-floating btn-medium waves-effect hoverable" target="_blank" href="https://plus.google.com/discover"><i class="fa fa-google-plus black-text"></i></a></li>
+            <li class="iconos_redes"><a class="btn-floating btn-medium waves-effect hoverable" target="_blank" href="https://ar.pinterest.com/cl62344/argentina-para-turistas/"><i class="fa fa-pinterest black-text"></i></a></li>
+            <li class="iconos_redes"><a class="btn-floating btn-medium waves-effect hoverable" target="_blank" href="https://ar.linkedin.com/company/camara-argentina-de-turismo"><i class="fa fa-linkedin black-text"></i></a></li>
+          </ul>
+        </div>
+        <div class="col s12 m12 l11">
+          <div class="col s12 m4 l4">
+            <img class="responsive-img z-depth-3" src="images/2.jpg"/>
+            <img class="responsive-img z-depth-3" src="images/3.jpg"/>
+          </div>
+          <div class="col s12 m4 l4">
+            <img class="responsive-img img_central z-depth-3" src="images/central_cristo.jpg"/>
+          </div>
+          <div class="col s12 m4 l4">
+            <img class="responsive-img z-depth-3" src="images/3.jpg"/>
+            <img class="responsive-img z-depth-3" src="images/2.jpg"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- entrada del blog - perfil del autor -->
+    <div class="row">
+      <div class="col s12 m9 l9 teal lighten-3">
+        <h4>Tandil, tan cerca...</h4>
+        <div class="chip">
+          Fecha de publicación 15/09/2018
+        </div>
+        <div class="chip">
+          Tandil - Buenos Aires - Argentina.
+        </div>
+        <img class="left responsive-img" id="img_principal_entrada" src="images/atardecer.jpg">
+        <p class="flow-text justificado">Tandil es la ciudad cabecera del partido homónimo y está ubicada en el centro de la provincia de Buenos Aires, en el centro-este de la Argentina, sobre las sierras del sistema de Tandilia. Fue fundada
+          por el Brigadier General Martín Rodríguez, gobernador de la provincia de Buenos Aires, en 1823, con el nombre de Fuerte Independencia.</p>
+          <p class="flow-text justificado">Su población inicial fue de 400 habitantes y debió soportar el asedio permanente de los indígenas, que trataron de impedir la consolidación del poblado.
+            Es una ciudad con clima templado, con temperaturas medias de 13.4°C, que cuenta con un núcleo urbano actual dividido en 33 barrios.
+            Su economía está basada principalmente en la agricultura, la ganadería, el turismo —que ha tenido un importante crecimiento en los últimos años, especialmente en el período vacacional que corresponde con la celebración de la Semana
+            Santa donde se desarrolla la liturgia católica alusiva a la fecha—,4​ y la actividad minera —la que está siendo cuestionada por organizaciones ecologistas—.5​6​ También se han instalado, entre otras, varias empresas de desarrollo
+            de software, a medida que crece su reciente polo tecnológico.</p>
+            <div class="row">
+              <form class="col s12">
+                <div class="input-field col s12 m12 l12">
+                  <i class="material-icons prefix black-text">person</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea black-text"></textarea>
+                  <label for="icon_prefix2" class="black-text">Comentario</label>
+                </div>
+                <div class="col s12">
+                  <div class="input-field col s4 offset-l2 black-text">
+                    <input id="nombre" type="text" class="validate">
+                    <label for="nombre" class="black-text">Nombre</label>
+                  </div>
+                  <div class="input-field col s4 black-text">
+                    <input id="apellido" type="text" class="validate">
+                    <label for="apellido" class="black-text">Apellido</label>
+                  </div>
+                  <button class="btn waves-effect waves-light black-text" type="submit" name="action">Enviar
+                    <i class="material-icons right">send</i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col s12 m3 l3 teal lighten-3">
+            <div class="card teal lighten-5">
+              <div class="card-content center-align">
+                <img class="circle small responsive-img" src="images/autor.jpg">
+                <h4 class="center-align"><u>Perfil del autor</u></h4>
+                <p class="flow-text justificado">Apasionado por los viajes y el descubrimiento de nuevos lugares donde dejarse sorprender día a día, el autor nos presenta una serie de destinos a los que ha visitado en reiteradas ocasiones y ha
+                  seleccionado de cada uno de ellos las características más peculiares, trayéndolos a nuestra experiencia desde su forma de ver el paisaje que lo rodea.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
